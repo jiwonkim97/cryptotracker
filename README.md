@@ -97,7 +97,7 @@
 >
 > - [x] Coin 페이지에서 뒤로갈 수 있는 뒤로가기 버튼 만들기
 >
-> - [ ] Price 탭 만들기
+> - [x] Price 탭 만들기
 >
 > - [x] Chart 탭 CandleStick Chart로 바꾸기
 >

@@ -9,7 +9,7 @@ interface IRouterProps{
 
 function Router({ toggleDark, isDark }:IRouterProps) {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cryptotracker">
       <Switch>
         <Route path="/:coinId">
           <Coin isDark={isDark} />

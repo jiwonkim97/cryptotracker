@@ -211,7 +211,7 @@ function Coin({ isDark }:ICoinProps) {
               <span>Max Supply:</span>
               <span>{tickersData?.max_supply}</span>
             </OverviewItem>
-            </Overview>
+          </Overview>
 
             <Tabs>
               <Tab isActive={chartMatch !== null}>
@@ -224,7 +224,7 @@ function Coin({ isDark }:ICoinProps) {
 
             <Switch>
               <Route path={`/:coinId/price`}>
-                <Price />
+                <Price coinId={coinId}/>
               </Route>
               <Route path={`/:coinId/chart`}>
                 <Chart isDark={isDark} coinId={coinId}/>

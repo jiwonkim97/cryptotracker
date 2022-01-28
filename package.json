@@ -30,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,5 +52,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage":"https://jiwonkim97.github.io/cryptotracker"
+  "homepage": "https://jiwonkim97.github.io/cryptotracker"
 }
