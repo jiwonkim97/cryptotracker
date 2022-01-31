@@ -110,3 +110,17 @@
 ## #5.1
 
 > Recoil이 없는 번거로운 global state 관리
+
+## #5.2
+
+> Recoil의 atom을 이용해서 전역에서 state를 관리할 수 있게 되었다!
+>
+> useRecoilValue 라는 훅을 이용했다.
+
+## #5.3
+
+> useSetRecoilState()는 인자로 전달된 atom을 수정하는 함수를 반환한다.
+>
+> React의 setState와 같은 방식
+>
+> onClick={() =>setterFn(prev => !prev)} 이러면 매번 반대 값으로바꿔줌 작동이 신기하다!

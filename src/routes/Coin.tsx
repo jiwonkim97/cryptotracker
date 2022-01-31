@@ -147,10 +147,9 @@ last_updated: string;
   };
 }
 interface ICoinProps{
-  isDark: boolean;
 }
 
-function Coin({ isDark }:ICoinProps) {
+function Coin({ }:ICoinProps) {
   const { coinId } = useParams<RouteParams>();
   const { state } = useLocation<RouteState>(); // react router DOM이 제공, coins 에서 보낸 state가 들어있음
   const priceMatch = useRouteMatch("/:coinId/price");
@@ -227,7 +226,7 @@ function Coin({ isDark }:ICoinProps) {
                 <Price coinId={coinId}/>
               </Route>
               <Route path={`/:coinId/chart`}>
-                <Chart isDark={isDark} coinId={coinId}/>
+                <Chart coinId={coinId}/>
               </Route>
             </Switch>
         </>
