@@ -124,3 +124,7 @@
 > React의 setState와 같은 방식
 >
 > onClick={() =>setterFn(prev => !prev)} 이러면 매번 반대 값으로바꿔줌 작동이 신기하다!
+
+## #5.4
+
+> Recap
